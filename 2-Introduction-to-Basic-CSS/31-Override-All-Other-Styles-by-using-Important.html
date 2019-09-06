@@ -1,0 +1,19 @@
+<!-- Learned that by adding !important after a specific attribute such as red, 10px, monotype etc will make that attribute override all others
+
+  <style>
+    body {
+      background-color: black;
+      font-family: monospace;
+      color: green;
+    }
+    #orange-text {
+      color: orange;
+    }
+    .pink-text {
+      color: pink !important;
+    }
+    .blue-text {
+      color: blue;
+    }
+  </style>
+  <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
