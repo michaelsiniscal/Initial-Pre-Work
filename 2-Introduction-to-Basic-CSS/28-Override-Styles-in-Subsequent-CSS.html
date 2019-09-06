@@ -1,0 +1,16 @@
+<!-- Learned that when there are multiple conflicting classes applied to the same element, the class listed last in the style box will be dominant (changing the order of classes within the element does not appear to have an effect on dominance)
+
+  <style>
+    body {
+      background-color: black;
+      font-family: monospace;
+      color: green;
+    }
+    .pink-text {
+      color: pink;
+    }
+    .blue-text {
+      color: blue;
+    }
+  </style>
+  <h1 class="pink-text blue-text">Hello World!</h1>
