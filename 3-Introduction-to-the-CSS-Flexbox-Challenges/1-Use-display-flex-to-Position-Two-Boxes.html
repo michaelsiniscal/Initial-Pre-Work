@@ -1,37 +1,27 @@
-<!-- Learned how to align text
+<!-- Learned how to use display property to align objects
 
   <style>
-    h4 {
+    #box-container {
+      height: 500px;
+      display: flex;
 
     }
-    .center-text {text-align: center;}
-    .justify-text {text-align: justify;}
-    p {
+
+    #box-1 {
+      background-color: dodgerblue;
+      width: 50%;
+      height: 50%;
 
     }
-    .links {
-      margin-right: 20px;
 
-    }
-    .fullCard {
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin: 10px 5px;
-      padding: 4px;
-    }
-    .cardContent {
-      padding: 10px;
+    #box-2 {
+      background-color: orangered;
+      width: 50%;
+      height: 50%;
+
     }
   </style>
-  <div class="fullCard">
-    <div class="cardContent">
-      <div class="cardText">
-        <h4 class="center-text">Google</h4>
-        <p class="justify-text">Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
-      </div>
-      <div class="cardLinks">
-        <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
-        <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
-      </div>
-    </div>
+  <div id="box-container">
+    <div id="box-1"></div>
+    <div id="box-2"></div>
   </div>
